@@ -11,6 +11,7 @@ RUN apt install -y python
 RUN apt install -y cpio
 RUN apt install -y bc
 RUN apt install -y unzip
+RUN apt install -y libssl-dev
 RUN rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /opt/linaro
 
