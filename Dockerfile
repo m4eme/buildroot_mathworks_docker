@@ -33,5 +33,6 @@ RUN rm gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu.tar.xz
 RUN useradd -u 8877 mw_user
 RUN mkdir /home/mw_user
 RUN chown mw_user:mw_user /home/mw_user
+RUN chown mw_user:mw_user /opt
 USER mw_user
 WORKDIR /home/mw_user
